@@ -8,7 +8,7 @@ load Claude's instructions directly in your browser:
 
 1. Open **[claude.ai](https://claude.ai)** and start a new conversation
 2. Open this link and select all the text (`⌘A`), then copy it (`⌘C`):
-   **[raw.githubusercontent.com/your-org/dev-setup/main/CLAUDE.md](https://raw.githubusercontent.com/your-org/dev-setup/main/CLAUDE.md)**
+   **[raw.githubusercontent.com/Peech-LLC/dev-setup/main/CLAUDE.md](https://raw.githubusercontent.com/Peech-LLC/dev-setup/main/CLAUDE.md)**
 3. Paste it (`⌘V`) into the Claude conversation and send it
 4. Claude will take it from there — just follow its instructions
 
@@ -24,7 +24,7 @@ If you'd rather just run the script yourself without Claude, continue below.
 New here? One command gets your machine ready.
 
 ```bash
-zsh <(curl -fsSL https://raw.githubusercontent.com/your-org/dev-setup/main/setup-dev-env.sh)
+zsh <(curl -fsSL https://raw.githubusercontent.com/Peech-LLC/dev-setup/main/setup-dev-env.sh)
 ```
 
 > Run this in Terminal on your first day. It takes about 5–10 minutes and will
@@ -35,14 +35,14 @@ zsh <(curl -fsSL https://raw.githubusercontent.com/your-org/dev-setup/main/setup
 
 ## What it installs
 
-| Tool | Purpose |
-|---|---|
-| **Homebrew** | macOS package manager |
-| **pipx** | Isolated Python tool installs |
-| **Poetry** | Python dependency & virtualenv management |
-| **nvm + Node LTS** | Node version manager + current LTS release |
-| **pnpm** | Fast Node package manager |
-| **Monaspace** | Editor & terminal font family |
+| Tool                   | Purpose                                            |
+| ---------------------- | -------------------------------------------------- |
+| **Homebrew**           | macOS package manager                              |
+| **pipx**               | Isolated Python tool installs                      |
+| **Poetry**             | Python dependency & virtualenv management          |
+| **nvm + Node LTS**     | Node version manager + current LTS release         |
+| **pnpm**               | Fast Node package manager                          |
+| **Monaspace**          | Editor & terminal font family                      |
 | **VS Code extensions** | Ruff, Prettier, Pylance, ESLint, GitLens, and more |
 
 ## What it configures
@@ -87,20 +87,20 @@ first run.
 
 ## VS Code extensions installed
 
-| Extension | Purpose |
-|---|---|
-| `PKief.material-icon-theme` | File icons |
-| `esbenp.prettier-vscode` | JS/TS/CSS/HTML formatter |
-| `charliermarsh.ruff` | Python linter & formatter |
-| `ms-python.python` | Python language support |
-| `ms-python.vscode-pylance` | Python type checking |
-| `dbaeumer.vscode-eslint` | JavaScript/TypeScript linting |
-| `christian-kohler.npm-intellisense` | npm module autocomplete |
-| `lextudio.restructuredtext` | RST / Sphinx docs |
-| `eamodio.gitlens` | Git blame, history, and more |
-| `github.vscode-pull-request-github` | PRs and issues inside VS Code |
-| `editorconfig.editorconfig` | Consistent editor config across projects |
-| `streetsidesoftware.code-spell-checker` | Spell checking in code and comments |
+| Extension                               | Purpose                                  |
+| --------------------------------------- | ---------------------------------------- |
+| `PKief.material-icon-theme`             | File icons                               |
+| `esbenp.prettier-vscode`                | JS/TS/CSS/HTML formatter                 |
+| `charliermarsh.ruff`                    | Python linter & formatter                |
+| `ms-python.python`                      | Python language support                  |
+| `ms-python.vscode-pylance`              | Python type checking                     |
+| `dbaeumer.vscode-eslint`                | JavaScript/TypeScript linting            |
+| `christian-kohler.npm-intellisense`     | npm module autocomplete                  |
+| `lextudio.restructuredtext`             | RST / Sphinx docs                        |
+| `eamodio.gitlens`                       | Git blame, history, and more             |
+| `github.vscode-pull-request-github`     | PRs and issues inside VS Code            |
+| `editorconfig.editorconfig`             | Consistent editor config across projects |
+| `streetsidesoftware.code-spell-checker` | Spell checking in code and comments      |
 
 ## Linting standards
 

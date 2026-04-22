@@ -39,7 +39,7 @@ The primary setup tool is a shell script. When the employee is ready to begin,
 run it for them:
 
 ```bash
-zsh <(curl -fsSL https://raw.githubusercontent.com/your-org/dev-setup/main/setup-dev-env.sh)
+zsh <(curl -fsSL https://raw.githubusercontent.com/Peech-LLC/dev-setup/main/setup-dev-env.sh)
 ```
 
 The script will pause at two points that require human input:
