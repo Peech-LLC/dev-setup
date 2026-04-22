@@ -91,7 +91,6 @@ fi
 
 info "Configuring Poetry globals…"
 poetry config virtualenvs.in-project true        # .venv lives inside the project
-poetry config virtualenvs.prefer-active-python true
 success "Poetry configured"
 
 # =============================================================================
