@@ -91,6 +91,10 @@ fi
 
 info "Configuring Poetry globals…"
 poetry config virtualenvs.in-project true        # .venv lives inside the project
+
+# Attempt prefer-active-python (Poetry 1.x only — silently ignored on 2.x)
+poetry config virtualenvs.prefer-active-python true 2>/dev/null || true
+
 success "Poetry configured"
 
 # =============================================================================
